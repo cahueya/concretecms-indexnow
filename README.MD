@@ -57,7 +57,7 @@ To submit all public pages manually, run the task from:
 Dashboard → Automated Jobs → IndexNow Submit
 Or trigger it via CLI:
 
-```./concrete/bin/concrete indexnow:submit```
+```./concrete/bin/concrete tasks:indexnow:submit```
 This will:
 
 - Scan all public pages
