@@ -1,0 +1,408 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: manage_bbb 0.42\n"
+"Report-Msgid-Bugs-To: info@cahueya.com\n"
+"Last-Translator: admin\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-16T15:02:19+01:00\n"
+"PO-Revision-Date: 2019-11-16T15:02:19+01:00\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: packages/manage_bbb/controller.php:23
+msgid "Create meetings and invite attendees for BigBlueButton"
+msgstr ""
+
+#: packages/manage_bbb/controller.php:27
+msgid "Manage BBB"
+msgstr ""
+
+#: packages/manage_bbb/blocks/join_bbb_link/controller.php:29
+msgid "Displays login link for currently active sessions."
+msgstr ""
+
+#: packages/manage_bbb/blocks/join_bbb_link/controller.php:33
+msgid "BigBlueButton"
+msgstr ""
+
+#: packages/manage_bbb/blocks/join_bbb_link/view.php:13
+msgid "Follow this Link to access meeting"
+msgstr ""
+
+#: packages/manage_bbb/blocks/join_bbb_link/view.php:18
+msgid "There are no active meetings."
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:41
+msgid "Admin Info"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:45
+msgid "Server URL"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:46
+msgid "https://default.com/bigbluebutton/"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:49
+msgid "Server Secret"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:50
+msgid "The secret of your BBB instance"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:56
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:128
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:214
+msgid "Username"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:57
+msgid "The username of your admin"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:60
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:132
+msgid "E-Mail"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:61
+msgid "The email of your admin"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:64
+msgid "Sender Name"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:65
+msgid "The sender address"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:68
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:69
+msgid "Logout-URL"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:74
+msgid "CSV Import: Firstname"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:75
+msgid "Column name for first names"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:78
+msgid "CSV Import: Lastname"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:79
+msgid "Column name for last names"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:82
+msgid "CSV Import: Username"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:83
+msgid "Column name for usernames"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:86
+msgid "CSV Import: E-Mail"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:87
+msgid "Column name for emails"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:92
+msgid ","
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:93
+msgid ";"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:101
+msgid "Test Settings"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/configuration.php:102
+msgid "Save"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:27
+msgid "Your Session"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:31
+msgid "Meeting title"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:38
+msgid "Meeting-ID"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:48
+msgid "Welcome Message"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:49
+msgid "Your welcome Message"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:56
+msgid "Password Attendee"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:64
+msgid "Password Moderator"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:72
+msgid "Presentation"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:75
+msgid "Choose a presentation to upload."
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:84
+msgid "Record meeting"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:93
+msgid "Mail subject"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:100
+msgid "Mail text"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:101
+msgid "Populate the mailing with personalized data, using %firstname%, %lastname%, %username% and %url%."
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:109
+msgid "Optional Script"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:121
+msgid "The Users"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:129
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:218
+msgid "First Name"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:130
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:222
+msgid "Last Name"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:131
+msgid "Password"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:216
+msgid "Add a row"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:217
+msgid "Import from CSV"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:222
+msgid "Choose File"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:229
+msgid "Prepare Meeting!"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:237
+msgid "Please set configuration values!"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/create.php:239
+msgid "Configuration"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:47
+msgid "Active"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:49
+msgid "Inactive"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:53
+msgid "Yes"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:55
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:62
+msgid "No"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:79
+msgid "from"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:79
+msgid "Participants"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:96
+msgid "Start"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:101
+msgid "End"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:106
+msgid "get Recording"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:111
+msgid "Invite"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:116
+msgid "Delete"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:197
+msgid "Copy the URL"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:227
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/create.php:332
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:188
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:320
+msgid "Attendee"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:228
+msgid "Moderator"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:234
+msgid "Email"
+msgstr ""
+
+#: packages/manage_bbb/single_pages/dashboard/manage_bbb/meetings.php:254
+msgid "There are no Meetings generated."
+msgstr ""
+
+#: packages/manage_bbb/jobs/send_access_mails.php:28
+msgid "Meeting Access Mails Sending"
+msgstr ""
+
+#: packages/manage_bbb/jobs/send_access_mails.php:33
+msgid "Sends invitations to participants of a BBB meeting."
+msgstr ""
+
+#: packages/manage_bbb/jobs/send_access_mails.php:94
+msgid "Mails sent!"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/configuration.php:70
+msgid "Configuration saved"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/configuration.php:81
+msgid "Configuration failed!"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/configuration.php:83
+msgid "Configuration works!"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/configuration.php:86
+msgid "Configuration could not be checked! The server does not respond."
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/create.php:343
+msgid "This Email has failed:"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/create.php:343
+msgid "For this Event:"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/create.php:345
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:302
+msgid "This Email could not be added:"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/create.php:375
+msgid "Your session was generated!"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:117
+msgid "Meeting could not be created!"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:124
+msgid "Meeting is created and can be joined!"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:130
+msgid "Meeting could not be created! The server does not respond."
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:152
+msgid "Mail sent to: "
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:154
+msgid "Please set admin email."
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:172
+msgid "Meeting and related Attendees removed"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:188
+msgid "with Email"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:188
+msgid "removed"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:204
+msgid "Invitations sent!"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:206
+msgid "Please set admin email!"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:228
+msgid "Meeting ended"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:230
+msgid "Meeting could not be ended! The server does not respond."
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:264
+msgid "No recordings available"
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:269
+msgid "Records could not be found! The server does not respond."
+msgstr ""
+
+#: packages/manage_bbb/controllers/single_page/dashboard/manage_bbb/meetings.php:328
+msgid "User added"
+msgstr ""
