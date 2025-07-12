@@ -25,6 +25,7 @@ Place the package in your `packages` directory:
 /packages/indexnow
 
 
+
 Then install it via the ConcreteCMS Dashboard or CLI:
 
 ```./concrete/bin/concrete c5:package-install indexnow```
@@ -54,7 +55,8 @@ Whenever a page is published, the package:
 To submit all public pages manually, run the task from:
 
 
-Dashboard → Automated Jobs → IndexNow Submit
+Dashboard > System & Settings> Automation> Tasks > IndexNow: Bulk Submit All URLs
+
 Or trigger it via CLI:
 
 ```./concrete/bin/concrete tasks:indexnow:submit```
