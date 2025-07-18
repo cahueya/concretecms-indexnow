@@ -36,7 +36,13 @@ class Controller extends Package
     {
         Events::addListener('on_page_version_approve', function($event) {
             $page = $event->getPageObject();
-            if ($page && !$page->isSystemPage() && !$page->isPageDraft()) {
+
+            if (
+                $page &&
+                !$page->isSystemPage() &&
+                !$page->isPageDraft() &&
+                !$page->getAttribute('exclude_sitemapxml')
+            ) {
                 $this->submitToIndexNow($page);
             }
         });

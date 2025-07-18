@@ -24,7 +24,7 @@ class IndexnowCommand extends Command implements ApplicationAwareInterface
 
         $pl = new PageList();
         $pl->ignorePermissions();
-        $pl->filterByAttribute('exclude_search_index', false);
+        $pl->filterByAttribute('exclude_sitemapxml', false);
         $allPages = $pl->getResults();
         $pages = array_filter($allPages, function ($page) {
             return !$page->isSystemPage();
