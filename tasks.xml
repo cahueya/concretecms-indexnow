@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concrete5-cif version="1.0">
-
     <tasks>
         <task handle="indexnow" package="indexnow"/>
+        <task handle="indexnow_reconcile" package="indexnow"/>
     </tasks>
     <tasksets>
         <taskset handle="seo">
             <task handle="indexnow"/>
+            <task handle="indexnow_reconcile"/>
         </taskset>
     </tasksets>
-
 </concrete5-cif>
