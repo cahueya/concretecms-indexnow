@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 - 2026-08-30
+
+- Fixed install/upgrade fatal error on Concrete CMS 9.x caused by calling the nonexistent `Concrete\Core\Page\Single::getByPath()` method.
+- Dashboard single-page existence is now checked with `Concrete\Core\Page\Page::getByPath()` and `isError()` before `Single::add()`.
+- This release is intentionally version-bumped so sites where the 1.0.0 upgrade partially ran can safely retry with 1.0.1.
+
 ## 1.0.0 - 2026-08-30
 
 - Replaced synchronous `on_page_version_approve` submission with a persistent debounce queue.

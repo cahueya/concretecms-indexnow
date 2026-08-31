@@ -5,6 +5,7 @@ defined('C5_EXECUTE') or die('Access Denied.');
 
 use Concrete\Core\Command\Task\Manager;
 use Concrete\Core\Package\Package;
+use Concrete\Core\Page\Page;
 use Concrete\Core\Page\Single;
 use Concrete\Core\Support\Facade\Config;
 use Concrete\Core\Support\Facade\Events;
@@ -17,7 +18,7 @@ class Controller extends Package
 {
     protected $pkgHandle = 'indexnow';
     protected $appVersionRequired = '9.0.0';
-    protected $pkgVersion = '1.0.0';
+    protected $pkgVersion = '1.0.1';
 
     protected $pkgAutoloaderRegistries = [
         'src/' => 'Concrete\\Package\\Indexnow',
@@ -57,28 +58,38 @@ class Controller extends Package
         (new SchemaInstaller())->install();
         $this->installDefaults();
         $this->installContentFile('tasks.xml');
-        if (!Single::getByPath('/dashboard/system/seo/indexnow')) {
-            Single::add('/dashboard/system/seo/indexnow', $pkg);
-        }
+        $this->ensureDashboardPage($pkg);
         return $pkg;
     }
 
     public function upgrade()
     {
         parent::upgrade();
-        $pkg = Package::getByHandle($this->pkgHandle);
+        $pkg = $this->getPackageEntity();
         (new SchemaInstaller())->install();
         $this->installDefaults();
         $this->installContentFile('tasks.xml');
-        if (!Single::getByPath('/dashboard/system/seo/indexnow')) {
-            Single::add('/dashboard/system/seo/indexnow', $pkg);
-        }
+        $this->ensureDashboardPage($pkg);
     }
 
     public function uninstall()
     {
         (new SchemaInstaller())->uninstall();
         parent::uninstall();
+    }
+
+    /**
+     * Ensure the package Dashboard single page exists.
+     *
+     * Concrete\Core\Page\Single manages creation but does not provide getByPath().
+     * Page::getByPath() returns an error Page object when the path does not exist.
+     */
+    protected function ensureDashboardPage($pkg)
+    {
+        $page = Page::getByPath('/dashboard/system/seo/indexnow');
+        if ($page->isError()) {
+            Single::add('/dashboard/system/seo/indexnow', $pkg);
+        }
     }
 
     protected function installDefaults()

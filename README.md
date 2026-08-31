@@ -1,8 +1,8 @@
-# ConcreteCMS IndexNow Integration 1.0.0
+# ConcreteCMS IndexNow Integration 1.0.1
 
 This is an upgrade-compatible rewrite of the `indexnow` ConcreteCMS package. It keeps the existing package handle and existing API-key/endpoint configuration while changing normal page events from synchronous HTTP requests to a local, deduplicating queue.
 
-## What changed in 1.0.0
+## What changed in 1.0.x
 
 - Uses Concrete's `PageUrlResolver`, so the actual page path is submitted instead of only the canonical site base URL.
 - Page approvals, moves, trashing and deletion are tracked.
@@ -62,3 +62,7 @@ The reconciliation scan intentionally ignores editor permissions, like the old b
 ## License
 
 MIT. Based on the original ConcreteCMS IndexNow package by cahueya; see `LICENSE`.
+
+## 1.0.1 compatibility fix
+
+Version 1.0.1 fixes the package install/upgrade Dashboard-page existence check for Concrete CMS 9.x. `Concrete\Core\Page\Single` creates single pages but has no `getByPath()` method; the package now checks the path with `Concrete\Core\Page\Page::getByPath()` and `isError()` before calling `Single::add()`.
